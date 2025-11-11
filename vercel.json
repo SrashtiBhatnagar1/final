@@ -1,8 +1,24 @@
 {
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
+<<<<<<< HEAD
       "source": "/((?!resume\\.pdf).*)",
       "destination": "/win1.html"
+=======
+      "src": "win1.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "assets/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/win1.html"
+>>>>>>> 492f7a9eb9bb87d16cbe40ac06028b0d177a89e0
     }
   ]
 }
