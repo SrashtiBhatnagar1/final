@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/((?!resume\\.pdf).*)",
-      "destination": "/index.html"
+      "destination": "/win1.html"
     }
   ]
 }
