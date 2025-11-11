@@ -1,7 +1,11 @@
 {
   "rewrites": [
     {
-      "source": "/((?!Kashika-Resume (3)\\.pdf).*)",
+      "source": "/Kashika-Resume (3)\\.pdf",
+      "destination": "/Kashika-Resume (3).pdf"
+    },
+    {
+      "source": "/(.*)",
       "destination": "/win1.html"
     }
   ]
