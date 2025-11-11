@@ -1,15 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "rewrites": [
     {
-      "src": "win1.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/win1.html"
+      "source": "/((?!Kashika-Resume (3)\\.pdf).*)",
+      "destination": "/win1.html"
     }
   ]
 }
