@@ -8,10 +8,6 @@
   ],
   "routes": [
     {
-      "src": "/Kashika-Resume%20\\(3\\)\\.pdf",
-      "dest": "/Kashika-Resume (3).pdf"
-    },
-    {
       "src": "/",
       "dest": "/win1.html"
     }
